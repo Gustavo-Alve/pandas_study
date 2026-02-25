@@ -5,5 +5,5 @@ import pandas as pd
 #who stay more time at the social medias
 df =pd.read_csv('Smartphone_Usage_Productivity_Dataset_50000.csv')
 
-count = df['Gender']
-print(count.type())
+print(df.head())
+
